@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import {
   Section,
   Subscribe,
@@ -19,9 +18,23 @@ class App extends Component {
     return (
       <div>
         <PageLayout>
+
           <Navigation>
-            <NavLink title="hey" />
+            <NavLink
+              name="Find table"
+              color="#fff"
+              href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
+            />
+            <NavLink name="Menu" color="#fff" href="#menu" />
+            <NavLink
+              name="Private Events"
+              color="#fff"
+              href="#private-events"
+            />
+            <NavLink name="Gallery" color="#fff" href="gallery" />
+            <NavLink name="Bottle Service" color="red" href="rooftop" />
           </Navigation>
+
           <Section>
             <Event />
           </Section>
