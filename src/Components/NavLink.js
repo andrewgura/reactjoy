@@ -3,28 +3,40 @@ import React, { Component } from "react";
 export class NavLink extends Component {
   render() {
     {
-      const divStyle = {};
+      const divStyle = {
+        zIndex: "1000",
+        top: "0",
+        left: "0",
+        right: "0",
+        textAlign: "center",
+        display: "flex",
+        justifyContent: "space-between",
+        fontSize: "1em",
+        marginTop: "60px",
+        position: "absolute",
+        background: "transparent"
+      };
 
       const aStyle = {
-        alignContent: "center",
-        textDecoration: "none"
+        display: "inline",
+        textDecoration: "none",
+        fontSize: "18px",
+        lineHeight: "1.2",
+        padding: "14px 0"
       };
 
       const liStyle = {
         color: this.props.color ? this.props.color : "black",
-        textTransform: "uppercase",
-        fontSize: "18px",
+        background: "transparent",
         display: "inline",
-        textAlign: "center",
-        margin: "0",
-        padding: "0"
+        padding: "0 10px",
+        marginBottom: "5px"
       };
 
       const ulStyle = {
-        display: "inline",
-        alignContent: "center",
-        padding: "0",
-        marginTop: "10%"
+        width: "100%",
+        margin: "50px 10px 0",
+        padding: "0"
       };
 
       return (

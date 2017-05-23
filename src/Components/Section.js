@@ -5,7 +5,9 @@ export class Section extends Component {
   render() {
     const divStyle = {
       backgroundImage: `url(${this.props.background})`,
-      backgroundColor: "black"
+      backgroundSize: "cover",
+      backgroundColor: "black",
+      padding: "80px"
     };
 
     return (

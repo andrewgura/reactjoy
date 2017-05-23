@@ -11,33 +11,52 @@ export class Navigation extends Component {
       backgroundRepeat: "no-repeat"
     };
 
-    const imgStyle = {
-      marginTop: "13%",
-      size: "100%"
-      // position: "abosolute"
+    const Logo = {
+      width: "400px",
+      display: "block",
+      maxWidth: "100%",
+      margin: "auto"
+    };
+
+    const LogoBox = {
+      position: "absolute",
+      width: "400px",
+      height: "200px",
+      top: "20%",
+      bottom: "30%",
+      left: "0",
+      right: "0",
+      margin: "auto"
     };
 
     const pStyle = {
       fontFamily: "'Open Sans', sans-serif",
       color: "#fff",
       fontSize: "16px",
-      marginTop: "12%",
-      position: " relative"
+      left: "50%",
+      bottom: "100px",
+      position: " absolute",
+      transform: "translateX(-50%)",
+      textAlign: "center"
     };
 
     const arrowImg = {
       height: "30px",
       width: "30px",
-      position: " relative"
+      position: "absolute",
+      bottom: "60px",
+      left: "50%"
     };
 
     return (
       <div style={divStyle}>
         {this.props.children}
-        <img
-          style={imgStyle}
-          src="http://res.cloudinary.com/hubbard-inn/image/upload/q_80,w_400/v1461961281/joy/logos/joy-district.png"
-        />
+        <div style={LogoBox}>
+          <img
+            style={Logo}
+            src="http://res.cloudinary.com/hubbard-inn/image/upload/q_80,w_400/v1461961281/joy/logos/joy-district.png"
+          />
+        </div>
         <p style={pStyle}>
           112 W. Hubbard St. • CHICAGO, IL 60654 • (312) 955-0339
         </p>
