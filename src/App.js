@@ -35,25 +35,44 @@ class App extends Component {
             <NavLink name="Bottle Service" color="red" href="rooftop" />
           </Navigation>
 
-          <Section>
+          <Section
+            title="Upcoming Events"
+            background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,q_70,w_auto/v1462327216/joy/backgrounds/si4pxytkjqubpzgpw3rx.jpg"
+          >
             <Event />
           </Section>
-          <Section>
+
+          <Section
+            title="About Us"
+            background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1462327912/joy/backgrounds/zhhu5w9tdxxetz80hi9d.jpg"
+          >
             <AboutUs />
           </Section>
-          <Section>
+
+          <Section
+            title="Menu"
+            background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,q_70,w_auto/v1462327912/joy/backgrounds/nynvtfh2m0s3dwq7zbb1.jpg"
+          >
             <Menu />
           </Section>
-          <Section>
+
+          <Section
+            title="Inquire"
+            background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1466009843/joy/backgrounds/zlwz8sy8i59fzav4qucm.jpg"
+          >
             <Inquire />
           </Section>
-          <Section>
+
+          <Section title="Stay in Touch with Joy District">
             <Subscribe />
           </Section>
-          <Section>
+
+          <Section title="Visit our other locations">
             <Location />
           </Section>
+
           <Footer />
+
         </PageLayout>
       </div>
     );
