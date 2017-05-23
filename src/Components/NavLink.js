@@ -4,22 +4,24 @@ export class NavLink extends Component {
   render() {
     {
       const aStyle = {
-        color: this.props.color ? this.props.color : "black",
+        alignContent: "center",
         textDecoration: "none"
       };
 
       const liStyle = {
-        width: "100%",
-        margin: "50px 10px 0",
+        color: this.props.color ? this.props.color : "black",
         textTransform: "uppercase",
-        display: "inline",
         fontSize: "18px",
-        lineHeight: "1.2",
-        padding: "14px 0"
+        display: "inline",
+        textAlign: "center",
+        margin: "0",
+        padding: "0"
       };
 
       const ulStyle = {
-        display: "block"
+        display: "inline",
+        alignContent: "center",
+        padding: "0"
       };
 
       return (
@@ -28,7 +30,8 @@ export class NavLink extends Component {
             <ul style={ulStyle}>
               <li style={liStyle}> {this.props.name}</li>
             </ul>
-          </a>
+          </a> |
+
         </div>
       );
     }
