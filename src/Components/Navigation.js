@@ -48,9 +48,25 @@ export class Navigation extends Component {
       left: "50%"
     };
 
+    const navStyle = {
+      top: "0",
+      left: "0",
+      right: "0",
+      justifyContent: "space-between",
+      zIndex: "1000",
+      textAlign: "center",
+      display: "flex",
+      fontSize: "1em",
+      marginTop: "60px",
+      position: "absolute",
+      background: "transparent"
+    };
+
     return (
       <div style={divStyle}>
-        {this.props.children}
+        <div style={navStyle}>
+          {this.props.children}
+        </div>
         <div style={LogoBox}>
           <img
             style={Logo}

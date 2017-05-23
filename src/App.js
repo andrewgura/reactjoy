@@ -21,7 +21,7 @@ class App extends Component {
 
           <Navigation>
             <NavLink
-              name="Find table"
+              name="Find a table"
               color="#fff"
               href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
             />
