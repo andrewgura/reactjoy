@@ -12,9 +12,9 @@ import {
   Event,
   PageLayout,
   Hero
-} from "./Components/Index";
+} from "../../Components/Index";
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -71,7 +71,7 @@ class App extends Component {
             />
             <Menu
               img="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,h_217,w_288/v1483049353/joy/menu-photos/drinks.jpg"
-              name="Drink"
+              name="Drinks"
               link=""
             />
           </Section>
@@ -130,4 +130,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
