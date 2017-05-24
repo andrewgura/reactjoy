@@ -88,7 +88,14 @@ class App extends Component {
           </Section>
 
           <Section title="Visit our other locations">
-            <Location />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/barn-and-company.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/hubbard-inn.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/hvac-pub.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/juliets.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/key-club.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/la-social.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,e_colorize:100,co_white,w_140,h_140/logos/stanleys-kitchen-and-tap.png" />
+            <Location logo="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,w_140,h_140/logos/pearl-tavern-white.png" />
           </Section>
 
           <Footer />

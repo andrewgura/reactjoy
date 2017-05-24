@@ -7,7 +7,7 @@ export class Section extends Component {
       backgroundImage: `url(${this.props.background})`,
       backgroundSize: "cover",
       backgroundColor: "black",
-      padding: "80px"
+      padding: "50px"
     };
 
     return (
