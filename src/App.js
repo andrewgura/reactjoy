@@ -10,7 +10,8 @@ import {
   NavLink,
   Navigation,
   Event,
-  PageLayout
+  PageLayout,
+  Hero
 } from "./Components/Index";
 
 class App extends Component {
@@ -18,6 +19,8 @@ class App extends Component {
     return (
       <div>
         <PageLayout>
+
+          <Hero />
 
           <Navigation>
             <NavLink
@@ -39,7 +42,15 @@ class App extends Component {
             title="Upcoming Events"
             background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,q_70,w_auto/v1462327216/joy/backgrounds/si4pxytkjqubpzgpw3rx.jpg"
           >
-            <Event />
+            <Event
+              name="Summer Events"
+              src="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,q_80,w_400/v1488410203/joy/events/summer-events.jpg"
+            />
+            <Event
+              name="Summer Events"
+              src="http://res.cloudinary.com/hubbard-inn/image/upload/f_auto,q_80,w_400/v1488410203/joy/events/summer-events.jpg"
+            />
+
           </Section>
 
           <Section

@@ -13,6 +13,10 @@ export class Title extends Component {
       borderBottom: "1px solid rgba(255,255,255,0.2)",
       color: "#fff"
     };
-    return <h1 style={hStyle}>{this.props.title}</h1>;
+    return (
+      <div>
+        <h1 style={hStyle}>{this.props.title}</h1>
+      </div>
+    );
   }
 }

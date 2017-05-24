@@ -6,8 +6,7 @@ export class NavLink extends Component {
       const ulStyle = {
         width: "100%",
         margin: "50px 10px 0",
-        padding: "0",
-        height: "100vh"
+        padding: "0"
       };
 
       const liStyle = {
