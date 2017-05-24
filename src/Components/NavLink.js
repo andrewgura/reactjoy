@@ -5,16 +5,16 @@ export class NavLink extends Component {
     {
       const ulStyle = {
         width: "100%",
-        margin: "50px 10px 0",
         padding: "0"
       };
 
       const liStyle = {
-        padding: "0 10px",
         background: "transparent",
         display: "inline",
         marginBottom: "5px",
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        borderRight: "1px solid #fff",
+        padding: "0 10px"
       };
 
       const aStyle = {
@@ -22,8 +22,7 @@ export class NavLink extends Component {
         display: "inline",
         textDecoration: "none",
         fontSize: "18px",
-        lineHeight: "1.2",
-        padding: "14px 0"
+        lineHeight: "1.2"
       };
 
       return (

@@ -22,7 +22,9 @@ export class Location extends Component {
     return (
       <div style={divStyle}>
         <div style={logobox}>
-          <img style={imgStyle} src={this.props.logo} alt="" />
+          <a href={this.props.link}>
+            <img style={imgStyle} src={this.props.logo} alt="" />
+          </a>
         </div>
       </div>
     );
