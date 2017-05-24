@@ -21,7 +21,7 @@ export class Event extends Component {
     return (
       <div style={divStyle}>
         <h2 style={h2Style}>{this.props.name}</h2>
-        <img style={imgStyle} src={this.props.src} />
+        <img style={imgStyle} src={this.props.src} alt="" />
       </div>
     );
   }

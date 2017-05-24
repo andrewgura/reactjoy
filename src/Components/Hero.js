@@ -54,6 +54,7 @@ export class Hero extends Component {
           <img
             style={Logo}
             src="http://res.cloudinary.com/hubbard-inn/image/upload/q_80,w_400/v1461961281/joy/logos/joy-district.png"
+            alt=""
           />
         </div>
         <p style={pStyle}>
@@ -63,6 +64,7 @@ export class Hero extends Component {
           <img
             style={arrowImg}
             src="https://maxcdn.icons8.com/Share/icon/Arrows//down41600.png"
+            alt=""
           />
         </a>
       </div>

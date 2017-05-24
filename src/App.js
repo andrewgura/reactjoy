@@ -64,7 +64,16 @@ class App extends Component {
             title="Menu"
             background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,q_70,w_auto/v1462327912/joy/backgrounds/nynvtfh2m0s3dwq7zbb1.jpg"
           >
-            <Menu />
+            <Menu
+              img="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,h_217,w_288/v1483049414/joy/menu-photos/food.jpg"
+              name="Food"
+              link=""
+            />
+            <Menu
+              img="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,h_217,w_288/v1483049353/joy/menu-photos/drinks.jpg"
+              name="Drink"
+              link=""
+            />
           </Section>
 
           <Section
