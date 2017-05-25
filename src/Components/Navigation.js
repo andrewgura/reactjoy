@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "./NavLink";
 
 export class Navigation extends Component {
   render() {
@@ -18,7 +19,15 @@ export class Navigation extends Component {
     return (
       <div style={navStyle}>
 
-        {this.props.children}
+        <NavLink
+          name="Find a table"
+          color="#fff"
+          href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
+        />
+        <NavLink name="Menu" color="#fff" href="#menu" />
+        <NavLink name="Private Events" color="#fff" href="#private-events" />
+        <NavLink name="Gallery" color="#fff" href="gallery" />
+        <NavLink name="Bottle Service" color="red" href="rooftop" />
 
       </div>
     );
