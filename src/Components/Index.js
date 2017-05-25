@@ -13,3 +13,4 @@ export { GalleryBox } from "./GalleryBox";
 export { GalleryItem } from "./GalleryItem";
 export { BSContainer } from "./BSContainer";
 export { Reservation } from "./Reservation";
+export { Video } from "./Video";

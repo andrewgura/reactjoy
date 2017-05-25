@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Title } from "./elements/Title";
+import { Button } from "./elements/Button";
 
 export class GalleryBox extends Component {
   render() {
@@ -12,6 +13,7 @@ export class GalleryBox extends Component {
     const container = {
       width: "1170px",
       marginRight: "auto",
+      marginTop: "30px",
       marginLeft: "auto",
       paddingLeft: "15px",
       paddingRight: "15px",
@@ -24,6 +26,7 @@ export class GalleryBox extends Component {
         <div style={container}>
           {this.props.children}
         </div>
+        <Button name="Book your event with joy" href="/#private-events" />
       </div>
     );
   }
