@@ -5,7 +5,7 @@ import { Button } from "./elements/Button";
 export class GalleryBox extends Component {
   render() {
     const divStyle = {
-      backgroundImage: `url(http://res.cloudinary.com/hubbard-inn/image/upload/q_70,w_1600/v1464909059/joy/backgrounds/s2dzzjkcnctc7axuhw8w.jpg)`,
+      background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://res.cloudinary.com/hubbard-inn/image/upload/q_70,w_1600/v1464909059/joy/backgrounds/s2dzzjkcnctc7axuhw8w.jpg')`,
       padding: "240px 0 130px",
       alignText: "center"
     };

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class Hero extends Component {
   render() {
     const divStyle = {
-      backgroundImage: `url("http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1462327219/joy/backgrounds/gube8cjjgfhqthuojkfr.jpg")`,
+      background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1462327219/joy/backgrounds/gube8cjjgfhqthuojkfr.jpg')`,
       position: "relative",
       backgroundPosition: "50% 50%",
       backgroundSize: "cover",
