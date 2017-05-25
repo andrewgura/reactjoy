@@ -24,8 +24,8 @@ export class Navigation extends Component {
           color="#fff"
           href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
         />
-        <NavLink name="Menu" color="#fff" href="#menu" />
-        <NavLink name="Private Events" color="#fff" href="#private-events" />
+        <NavLink name="Menu" color="#fff" href="/#menu" />
+        <NavLink name="Private Events" color="#fff" href="/#private-events" />
         <NavLink name="Gallery" color="#fff" href="gallery" />
         <NavLink name="Bottle Service" color="red" href="rooftop" />
 

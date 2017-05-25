@@ -12,8 +12,7 @@ export class Menu extends Component {
     const secStyle = {
       textAlign: "center",
       marginRight: "10px",
-      marginLeft: "10px",
-      marginTop: "40px"
+      marginLeft: "10px"
     };
     const aStyle = {
       textDecoration: "none",

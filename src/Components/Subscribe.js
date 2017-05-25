@@ -6,7 +6,6 @@ export class Subscribe extends Component {
       color: "#fff",
       margin: "0 0 10px",
       fontFamily: "'Open Sans', sans-serif",
-      marginTop: "30px",
       marginBottom: "20px",
       fontSize: "16px"
     };

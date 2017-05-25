@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Title } from "./elements/Title";
 
-export class Section extends Component {
+export class SideBySide extends Component {
   render() {
     const divStyle = {
       backgroundImage: `url(${this.props.background})`,
@@ -9,11 +8,20 @@ export class Section extends Component {
       padding: "50px"
     };
 
+    const contentContainer = {
+      width: "1170px",
+      marginRight: "auto",
+      marginLeft: "auto",
+      paddingLeft: "15px",
+      paddingRight: "15px"
+    };
+
     return (
       <div style={divStyle}>
         <div id={this.props.href} />
-        <Title title={this.props.title} />
-        {this.props.children}
+        <div style={contentContainer}>
+          {this.props.children}
+        </div>
       </div>
     );
   }

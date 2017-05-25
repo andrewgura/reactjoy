@@ -11,6 +11,7 @@ export class Title extends Component {
       fontSize: "36px",
       letterSpacing: "1px",
       borderBottom: "1px solid rgba(255,255,255,0.2)",
+      marginBottom: "30px",
       color: "#fff"
     };
     return (

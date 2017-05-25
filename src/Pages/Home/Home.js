@@ -10,7 +10,10 @@ import {
   Navigation,
   Event,
   PageLayout,
-  Hero
+  Hero,
+  SideBySide,
+  Hours,
+  PrivateParties
 } from "../../Components/Index";
 
 class Home extends Component {
@@ -38,15 +41,17 @@ class Home extends Component {
 
           </Section>
 
-          <Section
-            title="About Us"
+          <SideBySide
+            href="AboutUs"
             background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1462327912/joy/backgrounds/zhhu5w9tdxxetz80hi9d.jpg"
           >
-            <AboutUs />
-          </Section>
+            <AboutUs title="About Us" />
+            <Hours title="Hours" />
+          </SideBySide>
 
           <Section
             title="Menu"
+            href="menu"
             background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_center,q_70,w_auto/v1462327912/joy/backgrounds/nynvtfh2m0s3dwq7zbb1.jpg"
           >
             <Menu
@@ -61,12 +66,13 @@ class Home extends Component {
             />
           </Section>
 
-          <Section
-            title="Inquire"
+          <SideBySide
+            href="private-events"
             background="http://res.cloudinary.com/hubbard-inn/image/upload/c_fill,f_auto,g_auto,q_70,w_auto/v1466009843/joy/backgrounds/zlwz8sy8i59fzav4qucm.jpg"
           >
-            <Inquire />
-          </Section>
+            <PrivateParties title="Private Parties" />
+            <Inquire title="Inquire" />
+          </SideBySide>
 
           <Section title="Stay in Touch with Joy District">
             <Subscribe />

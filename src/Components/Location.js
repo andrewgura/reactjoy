@@ -11,7 +11,6 @@ export class Location extends Component {
     };
 
     const logobox = {
-      marginTop: "25px",
       padding: "0"
     };
     const imgStyle = {
