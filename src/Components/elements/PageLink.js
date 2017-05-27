@@ -30,3 +30,8 @@ const styles = {
 export const PageLink = ({ href, label }) => (
   <Link to={href} className={styles.linkstyle}>{label}</Link>
 );
+
+PageLink.propTypes = {
+  href: PropTypes.string,
+  label: PropTypes.string
+};

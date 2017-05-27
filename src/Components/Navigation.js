@@ -16,18 +16,25 @@ export class Navigation extends Component {
       position: "absolute",
       background: "transparent"
     };
+
+    const ulStyle = {
+      width: "100%",
+      padding: "0"
+    };
+
     return (
       <div style={navStyle}>
-
-        <NavLink
-          name="Find a table"
-          color="#fff"
-          href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
-        />
-        <NavLink name="Menu" color="#fff" href="/#menu" />
-        <NavLink name="Private Events" color="#fff" href="/#private-events" />
-        <NavLink name="Gallery" color="#fff" href="gallery" />
-        <NavLink name="Bottle Service" color="red" href="rooftop" />
+        <ul style={ulStyle}>
+          <NavLink
+            name="Find a table"
+            color="#fff"
+            href="https://www.opentable.com/r/joy-district-reservations-chicago?restref=261853"
+          />
+          <NavLink name="Menu" color="#fff" href="/#menu" />
+          <NavLink name="Private Events" color="#fff" href="/#private-events" />
+          <NavLink name="Gallery" color="#fff" href="gallery" />
+          <NavLink name="Bottle Service" color="red" href="rooftop" />
+        </ul>
 
       </div>
     );

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Title } from "./elements/Title";
-import { ExternalLink } from "./elements/ExternalLink";
 import { PageLink } from "./elements/PageLink";
 
 export class GalleryBox extends Component {

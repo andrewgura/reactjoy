@@ -13,7 +13,6 @@ export class GalleryItem extends Component {
       paddingLeft: "5px",
       paddingRight: "5px",
       width: "350px",
-      height: "375px",
       textAlign: "center",
       border: "2px solid #000"
     };

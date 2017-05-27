@@ -8,7 +8,6 @@ export class BSContainer extends Component {
       backgroundPosition: "50%, 50%",
       padding: "240px 0 130px",
       position: "relative",
-      backgroundPosition: "50% 50%",
       backgroundSize: "cover"
     };
 
