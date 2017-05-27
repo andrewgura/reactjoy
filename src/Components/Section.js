@@ -1,21 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
+import { css } from "glamor";
 import { Title } from "./elements/Title";
+import PropTypes from "prop-types";
 
-export class Section extends Component {
-  render() {
-    const divStyle = {
-      background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${this.props.background}')`,
+const styles = {
+  div: background =>
+    css({
+      background: background
+        ? `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${background}')`
+        : "inital",
       backgroundSize: "cover",
       backgroundPosition: "50%, 50%",
       padding: "50px"
-    };
+    })
+};
 
-    return (
-      <div style={divStyle}>
-        <div id={this.props.href} />
-        <Title title={this.props.title} />
-        {this.props.children}
-      </div>
-    );
-  }
-}
+export const Section = ({ href, title, background, children }) => (
+  <div className={styles.div(background)}>
+    <div id={href} />
+    <Title title={title} />
+    {children}
+  </div>
+);

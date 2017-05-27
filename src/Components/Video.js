@@ -6,10 +6,16 @@ export class Video extends Component {
     const videoStyle = {
       marginTop: "30px"
     };
+    const divStyle = {
+      width: "600px",
+      display: "inline-block"
+    };
     return (
-      <div>
+      <div style={divStyle}>
         <video src={this.props.src} controls style={videoStyle} />
-        <PageLink href="/gallery" label="Book your event with joy" />
+        <div style={divStyle}>
+          <PageLink href="/gallery" label="Book your event with joy" />
+        </div>
 
       </div>
     );

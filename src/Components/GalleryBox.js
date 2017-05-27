@@ -7,7 +7,7 @@ export class GalleryBox extends Component {
     const divStyle = {
       background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://res.cloudinary.com/hubbard-inn/image/upload/q_70,w_1600/v1464909059/joy/backgrounds/s2dzzjkcnctc7axuhw8w.jpg')`,
       backgroundPosition: "50%, 50%",
-      padding: "240px 0 130px",
+      padding: "150px 0 130px",
       alignText: "center"
     };
 
