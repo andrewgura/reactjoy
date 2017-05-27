@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Title } from "./elements/Title";
-import { Button } from "./elements/Button";
+import { ExternalLink } from "./elements/ExternalLink";
+import { PageLink } from "./elements/PageLink";
 
 export class GalleryBox extends Component {
   render() {
     const divStyle = {
       background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://res.cloudinary.com/hubbard-inn/image/upload/q_70,w_1600/v1464909059/joy/backgrounds/s2dzzjkcnctc7axuhw8w.jpg')`,
+      backgroundPosition: "50%, 50%",
       padding: "240px 0 130px",
       alignText: "center"
     };
@@ -26,7 +28,9 @@ export class GalleryBox extends Component {
         <div style={container}>
           {this.props.children}
         </div>
-        <Button name="Book your event with joy" href="/#private-events" />
+
+        <PageLink href="/#private-events" label="Book your event with joy" />
+
       </div>
     );
   }

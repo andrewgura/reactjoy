@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "./elements/Button";
+import { PageLink } from "./elements/PageLink";
 
 export class Video extends Component {
   render() {
@@ -9,7 +9,8 @@ export class Video extends Component {
     return (
       <div>
         <video src={this.props.src} controls style={videoStyle} />
-        <Button name="View Our Event Gallery" href="gallery" />
+        <PageLink href="/gallery" label="Book your event with joy" />
+
       </div>
     );
   }

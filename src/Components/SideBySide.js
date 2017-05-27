@@ -5,6 +5,7 @@ export class SideBySide extends Component {
     const divStyle = {
       background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${this.props.background}')`,
       backgroundSize: "cover",
+      backgroundPosition: "50%, 50%",
       padding: "50px"
     };
 
